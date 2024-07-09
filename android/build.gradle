@@ -18,13 +18,13 @@ buildscript {
 apply plugin: 'com.android.library'
 
 android {
-    namespace "com.bubblelabs"
+    namespace "com.bubblelabs.silentnotifications"
     compileSdk project.hasProperty('compileSdkVersion') ? rootProject.ext.compileSdkVersion : 34
     defaultConfig {
         minSdkVersion project.hasProperty('minSdkVersion') ? rootProject.ext.minSdkVersion : 22
         targetSdkVersion project.hasProperty('targetSdkVersion') ? rootProject.ext.targetSdkVersion : 34
-        versionCode 60010
-        versionName "6.0.1"
+        versionCode 60020
+        versionName "6.0.2"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
