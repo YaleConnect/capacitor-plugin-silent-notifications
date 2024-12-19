@@ -11,7 +11,7 @@
     "android/build.gradle",
     "dist/",
     "ios/Plugin/",
-    "Daalex90CapacitorPluginSilentNotifications.podspec"
+    "CapacitorPluginSilentNotifications.podspec"
   ],
   "author": "",
   "license": "MIT",
